@@ -1,6 +1,10 @@
 * {
   scroll-behavior: smooth;
 }
+::selection {
+  background-color: #85bc3c !important;
+  color: #fff;
+}
 
 .logo-image {
   position: absolute;
@@ -402,6 +406,7 @@ iframe {
 
 ul.social-link-team li a {
   background-color: #85bc3c;
+  box-shadow: 0 0 15px #ccc;
 }
 
 .team-bg-1 {
@@ -440,4 +445,33 @@ ul.social-link-team li a {
   width: 150px !important;
   height: 150px !important;
   border-radius: 50% !important;
+  max-width: 100%;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.testimonail-section {
+  background-color: #fff5ee;
+}
+.single-product-top {
+  background-image: url("../img/hero-section-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+.single-product-top::after {
+  background-color: #274400;
+}
+
+.cart-section-top {
+  background-image: url("../img/hero.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  opacity: 0.7;
 }

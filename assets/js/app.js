@@ -191,6 +191,8 @@
           document
             .getElementById("about-li")
             .classList.add("current-list-item");
+        } else if (pageName.includes("single")) {
+        } else if (pageName.includes("cart")) {
         } else {
           document.getElementById("home-li").classList.add("current-list-item");
         }
