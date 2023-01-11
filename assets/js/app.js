@@ -163,6 +163,18 @@
           topSpacing: 0,
         });
 
+        $(window).scroll(function () {
+          if ($(this).scrollTop()) {
+            $("#toTop").fadeIn();
+          } else {
+            $("#toTop").fadeOut();
+          }
+        });
+
+        $("#toTop").click(function () {
+          $("html, body").animate({ scrollTop: 0 }, 200);
+        });
+
         //mean menu
         $(".main-menu").meanmenu({
           meanMenuContainer: ".mobile-menu",
@@ -191,6 +203,8 @@
           document
             .getElementById("about-li")
             .classList.add("current-list-item");
+        } else if (pageName.includes("shop")) {
+        } else if (pageName.includes("checkout")) {
         } else if (pageName.includes("single")) {
         } else if (pageName.includes("cart")) {
         } else {

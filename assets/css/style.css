@@ -108,7 +108,7 @@ a.cart-btn {
 }
 
 a.cart-btn:hover {
-  background-color: #3cbcb4 !important;
+  background-color: #fff !important;
   transform: translateY(-5px);
 }
 
@@ -229,7 +229,7 @@ input[type="submit"]:hover {
 
 a.cart-btn:hover {
   background-color: #333;
-  color: #fff;
+  color: #333;
 }
 
 .form-title h2 {
@@ -446,6 +446,8 @@ ul.social-link-team li a {
   height: 150px !important;
   border-radius: 50% !important;
   max-width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .pt-100 {
@@ -474,4 +476,43 @@ ul.social-link-team li a {
   background-position: left;
   background-repeat: no-repeat;
   opacity: 0.7;
+}
+
+.checkout-top-section {
+  background-image: url("../img/checkout-top.jpg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+#toTop {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 5;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+#toTop:hover {
+  background-color: #85bc3c;
+}
+.billing-address-form form p input {
+  border-radius: 5px;
+  padding: 8px;
+}
+
+nav.main-menu ul ul.sub-menu {
+  top: 45px;
+  left: 25px;
+  padding: 10px;
+  width: 185px;
+}
+
+nav.main-menu ul ul.sub-menu li:hover,
+nav.main-menu ul ul.sub-menu li a:hover {
+  color: #85bc3c !important;
 }
