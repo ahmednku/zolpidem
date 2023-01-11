@@ -204,6 +204,10 @@
             .getElementById("about-li")
             .classList.add("current-list-item");
         } else if (pageName.includes("shop")) {
+          document
+            .getElementById("medicine-li")
+            .classList.add("current-list-item");
+        } else if (pageName.includes("shop")) {
         } else if (pageName.includes("checkout")) {
         } else if (pageName.includes("single")) {
         } else if (pageName.includes("cart")) {

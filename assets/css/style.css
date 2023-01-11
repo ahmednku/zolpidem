@@ -7,9 +7,8 @@
 }
 
 .logo-image {
-  position: absolute;
-  top: -80px;
-  width: 220px !important;
+  position: relative;
+  top: 5px;
 }
 @media only screen and (max-width: 767px) {
   .site-logo img {
@@ -27,6 +26,12 @@
   background-color: #000 !important;
 }
 
+.mt-80 {
+  margin-top: 80px;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
 .hero-area:after {
   /* background-color: #2b7e47 !important; */
   /* background-color: #3cbcb4 !important; */
@@ -351,6 +356,10 @@ h2.widget-title {
   color: #fff;
 }
 
+.single-product-item:hover .product-price {
+  color: #fff !important;
+}
+
 .footer-box.subscribe form input[type="email"] {
   padding: 14px;
 }
@@ -485,6 +494,13 @@ ul.social-link-team li a {
   background-repeat: no-repeat;
   opacity: 0.7;
 }
+.shop-top-section {
+  background-image: url("../img/checkout-top.jpg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
 
 #toTop {
   width: 40px;
@@ -515,4 +531,52 @@ nav.main-menu ul ul.sub-menu {
 nav.main-menu ul ul.sub-menu li:hover,
 nav.main-menu ul ul.sub-menu li a:hover {
   color: #85bc3c !important;
+}
+
+.product-filters ul li.active {
+  border: 2px solid #fff;
+  background-color: #85bc3c;
+  padding: 0.7rem 1rem;
+}
+
+.pagination-wrap ul li a.active {
+  background-color: #85bc3c !important;
+  color: #fff;
+}
+.pagination-wrap ul li:hover a {
+  background-color: #85bc3c !important;
+  color: #fff;
+}
+
+.product-filters ul li {
+  font-size: 16px;
+  margin: 10px;
+  padding: 4px 10px;
+}
+.view-all-btn,
+.submit-btn {
+  background-color: #85bc3c;
+  border-radius: 0;
+  transition: all;
+  transition-duration: 0.2s;
+}
+
+.view-all-btn:hover,
+.submit-btn:hover {
+  background-color: #85bc3c;
+  border-radius: 0;
+  background-color: #333;
+  transform: translateY(-3px);
+  border-radius: 50px;
+}
+
+#expiration-date {
+  width: 90%;
+}
+.card.single-accordion .card-header h5 button:before {
+  color: #85bc3c;
+}
+
+.feature-bg {
+  margin: 70px 0;
 }
