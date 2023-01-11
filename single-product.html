@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css" />
     <!-- animate css -->
     <link rel="stylesheet" href="assets/css/animate.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- mean menu css -->
     <link rel="stylesheet" href="assets/css/meanmenu.min.css" />
     <!-- main style -->
@@ -121,71 +122,73 @@
     </div>
     <!-- end single product -->
 
-    <div class="my-5 py-5 container about-tablet-section">
-      <h2 class="text-center">
+    <div class="my-5 py-5 container about-tablet-section overflow-hidden">
+      <h2 class="text-center" data-aos="fade-left">
         About <span class="green-text mb-2"> Zolpidem </span>
       </h2>
-      <p>
+      <p data-aos="fade-left">
         Zolpidem is used to treat insomnia (difficulty falling asleep or staying
         asleep). Zolpidem belongs to a class of medications called
         sedative-hypnotics. It works by slowing activity in the brain to allow
         sleep.
       </p>
-      <h5 class="mb-2 mt-4">
+      <h5 class="mb-2 mt-4" data-aos="fade-right">
         To use the oral spray, follow these directions and those that appear in
         the package label
       </h5>
       <ol>
-        <li>
+        <li data-aos="fade-left">
           Before using zolpidem spray for the first time, or if you have not
           used the spray bottle for 14 days, you must prime the pump
         </li>
-        <li>
+        <li data-aos="fade-left">
           Line up the arrows on the cap and the base of the container. Squeeze
           the cap at the arrows and pull the cap and base apart to separate.
           Remove the clear protective cap from the pump.
         </li>
-        <li>
+        <li data-aos="fade-left">
           To prime the pump, hold the container upright. Point the black spray
           opening away from your face and other people. Press down on the pump
           with your forefinger, release and let it return to the starting
           position and repeat 4 more times. You should see a fine spray come out
           of the container.
         </li>
-        <li>
+        <li data-aos="fade-left">
           To use zolpidem spray, hold the container upright with the black spray
           opening pointed directly into your mouth, over the top of your tongue.
           Press down fully on the pump to make sure that a full dose of zolpidem
           is sprayed.
         </li>
-        <li>
+        <li data-aos="fade-left">
           Let the pump return to the starting position. If your doctor
           prescribed only one spray of zolpidem, put the clear protective cap
           back over the pump at the top of the base after each use. If your
           doctor has prescribed two sprays of zolpidem for your dose, a second
           spray should be used.
         </li>
-        <li>
+        <li data-aos="fade-left">
           Snap the child-resistant cap back onto the base and rotate the cap and
           base so that the arrows are not lined up. This is to help prevent a
           child from using the spray mist bottle.
         </li>
-        <li>
+        <li data-aos="fade-left">
           This medication may be prescribed for other uses; ask your doctor or
           pharmacist for more information.
         </li>
       </ol>
-      <p>
+      <p data-aos="fade-right">
         Your sleep problems should improve within 7 to 10 days after you start
         taking zolpidem. Call your doctor if your sleep problems do not improve
         during this time or if they get worse at any time during your treatment.
       </p>
-      <h5 class="mb-1 mt-4">What side effects can this medication cause?</h5>
-      <p class="mb-2">
+      <h5 class="mb-1 mt-4" data-aos="fade-right">
+        What side effects can this medication cause?
+      </h5>
+      <p class="mb-2" data-aos="fade-left">
         Zolpidem may cause side effects. Tell your doctor if any of these
         symptoms are severe or do not go away:
       </p>
-      <ul>
+      <ul data-aos="fade-left">
         <li>drowsiness</li>
         <li>tiredness</li>
         <li>headache</li>
@@ -217,13 +220,16 @@
     </div>
 
     <!-- more products -->
-    <div class="more-products mb-150">
+    <div class="more-products mb-80 overflow-hidden">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 offset-lg-2 text-center">
             <div class="section-title">
-              <h3><span class="green-text">Related</span> Products</h3>
-              <p>
+              <h3 data-aos="fade-left">
+                <span class="green-text">Related</span>
+                Products
+              </h3>
+              <p data-aos="fade-left">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Aliquid, fuga quas itaque eveniet beatae optio.
               </p>
@@ -284,6 +290,7 @@
       src="https://static.thenounproject.com/png/44975-200.png"
       alt="scroll to top"
     />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- jquery -->
     <script src="assets/js/jquery-1.11.3.min.js"></script>
@@ -305,5 +312,8 @@
     <script src="assets/js/sticker.js"></script>
     <!-- main js -->
     <script src="assets/js/app.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

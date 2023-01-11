@@ -21,7 +21,7 @@
 	
 	ob_start();
 	?>
-		Hi imransdesign!<br /><br />
+		Hi Nku!<br /><br />
 		<?php echo ucfirst( $name ); ?>  has sent you a message via contact form on your website!
 		<br /><br />
 		
@@ -38,7 +38,7 @@
 	$body = ob_get_contents();
 	ob_end_clean();
 	
-	$to = 'support@fruitkha.com';
+	$to = 'ahmadnku2@gmail.com';
 
 	$s = mail($to,$subject,$body,$headers,"-t -i -f $from");
 

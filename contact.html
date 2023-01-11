@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css" />
     <!-- animate css -->
     <link rel="stylesheet" href="assets/css/animate.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- mean menu css -->
     <link rel="stylesheet" href="assets/css/meanmenu.min.css" />
     <!-- main style -->
@@ -72,11 +73,11 @@
     <!-- end breadcrumb section -->
 
     <!-- contact form -->
-    <div class="contact-from-section">
+    <div class="contact-from-section overflow-hidden">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mb-5 mb-lg-0">
-            <div class="form-title">
+            <div class="form-title" data-aos="fade-left">
               <h2>Have you any question?</h2>
               <p>
                 Are you in need of any help ? That's what we are here for.
@@ -128,23 +129,23 @@
               </form>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 overflow-hidden">
             <div class="contact-form-wrap">
-              <div class="contact-form-box">
+              <div class="contact-form-box" data-aos="fade-left">
                 <h4><i class="fas fa-map"></i> Shop Address</h4>
                 <p>
                   18, Lane 2 Zaman Park <br />
                   Lahore, Pakistan
                 </p>
               </div>
-              <div class="contact-form-box">
+              <div class="contact-form-box" data-aos="fade-left">
                 <h4><i class="far fa-clock"></i> Shop Hours</h4>
                 <p>
                   MON - FRIDAY: 8 to 9 PM <br />
                   SAT - SUN: 10 to 8 PM
                 </p>
               </div>
-              <div class="contact-form-box">
+              <div class="contact-form-box" data-aos="fade-left">
                 <h4><i class="fas fa-address-book"></i> Contact</h4>
                 <p>
                   Phone: +1 11 222 3333 <br />
@@ -159,11 +160,13 @@
     <!-- end contact form -->
 
     <!-- find our location -->
-    <div class="find-location">
+    <div class="find-location overflow-hidden">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <p><i class="fas fa-map-marker-alt"></i>Reach out to us</p>
+            <p data-aos="fade-right">
+              <i class="fas fa-map-marker-alt"></i>Reach out to us
+            </p>
           </div>
         </div>
       </div>
@@ -189,7 +192,7 @@
       src="https://static.thenounproject.com/png/44975-200.png"
       alt="scroll to top"
     />
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- jquery -->
     <script src="assets/js/jquery-1.11.3.min.js"></script>
     <!-- bootstrap -->
@@ -212,5 +215,8 @@
     <script src="assets/js/form-validate.js"></script>
     <!-- main js -->
     <script src="assets/js/app.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
