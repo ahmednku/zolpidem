@@ -92,6 +92,7 @@ input[type="submit"] {
 .mean-container .mean-nav,
 .mean-bar a.meanmenu-reveal {
   background-color: var(--blue-color);
+  background-color: #000;
 }
 
 .mean-container a.meanmenu-reveal span,
