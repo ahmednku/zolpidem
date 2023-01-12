@@ -219,6 +219,10 @@
           document
             .getElementById("sleeping-tablets-li")
             .classList.add("current-list-item");
+        } else if (pageName.includes("blogs")) {
+          document
+            .getElementById("blogs-li")
+            .classList.add("current-list-item");
         } else if (pageName.includes("nootropics")) {
           document
             .getElementById("nootropics-li")
