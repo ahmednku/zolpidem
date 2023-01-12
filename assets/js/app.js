@@ -207,7 +207,22 @@
           document
             .getElementById("medicine-li")
             .classList.add("current-list-item");
-        } else if (pageName.includes("shop")) {
+        } else if (pageName.includes("anti-anxi")) {
+          document
+            .getElementById("anti-anxiety-li")
+            .classList.add("current-list-item");
+        } else if (pageName.includes("pain-relief")) {
+          document
+            .getElementById("pain-relief-li")
+            .classList.add("current-list-item");
+        } else if (pageName.includes("sleeping-tablets")) {
+          document
+            .getElementById("sleeping-tablets-li")
+            .classList.add("current-list-item");
+        } else if (pageName.includes("nootropics")) {
+          document
+            .getElementById("nootropics-li")
+            .classList.add("current-list-item");
         } else if (pageName.includes("checkout")) {
         } else if (pageName.includes("single")) {
         } else if (pageName.includes("cart")) {
