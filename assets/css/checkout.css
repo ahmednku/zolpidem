@@ -3,14 +3,14 @@
   --green-color: #85bc3c;
 }
 .swal2-styled.swal2-confirm {
-  background-color: var(--green-color);
-  padding: 0.625em 1.8em;
-  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  background-color: var(--green-color) !important;
+  padding: 0.625em 1.8em !important;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px !important;
 }
 .swal2-styled.swal2-cancel {
   background-color: red;
 }
 .swal2-styled.swal2-confirm:focus,
 .swal2-styled.swal2-cancel:focus {
-  box-shadow: none;
+  box-shadow: none !important;
 }
